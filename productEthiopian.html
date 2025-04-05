@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Espresso - Ethiopian Yirgacheffe</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8B4513;
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 5px;
+            min-height: 500px;
+        }
+        
+        header {
+            background-color: #5D2906;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        
+        .logo {
+            height: 80px;
+            margin-right: 20px;
+        }
+        
+        .company-name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #FFD700;
+        }
+        
+        nav {
+            background-color: #3A1702;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #FFF;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            color: #FFD700;
+        }
+        
+        .product-details {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        
+        .product-image {
+            flex-basis: 40%;
+        }
+        
+        .product-image img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        .product-info {
+            flex-basis: 55%;
+            margin-left: 5%;
+        }
+        
+        .product-price {
+            font-size: 1.5em;
+            color: #FFD700;
+            margin: 20px 0;
+        }
+        
+        .product-description {
+            margin: 20px 0;
+        }
+        
+        .product-features {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .product-features h3 {
+            margin-top: 0;
+        }
+        
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .feature-list li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .feature-list li:before {
+            content: "•";
+            color: #FFD700;
+            position: absolute;
+            left: 0;
+        }
+        
+        .back-link {
+            display: inline-block;
+            background-color: #3A1702;
+            color: #FFD700;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        
+        .back-link:hover {
+            background-color: #5D2906;
+        }
+        
+        footer {
+            background-color: #3A1702;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        
+        .contact-info {
+            margin-bottom: 15px;
+        }
+        
+        .social-links a {
+            color: #FFD700;
+            margin: 0 10px;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+        
+        .copyright {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            
+            .product-image, .product-info {
+                flex-basis: 100%;
+                margin-left: 0;
+            }
+            
+            .product-image {
+                margin-bottom: 20px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Digital Espresso Logo" class="logo">
+            <div class="company-name">Digital Espresso</div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="branches.html">Branches</a></li>
+            <li><a href="aboutus.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="content">
+            <h1>Ethiopian Yirgacheffe</h1>
+            
+            <div class="product-details">
+                <div class="product-image">
+                    <img src="2.png" alt="Ethiopian Yirgacheffe Coffee">
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-price">$21.99 / 12 oz bag</div>
+                    
+                    <div class="product-description">
+                        <p>Our Ethiopian Yirgacheffe coffee represents the pinnacle of African coffee cultivation. These exceptional beans are sourced from small farms in the highland regions of Yirgacheffe, Ethiopia – the birthplace of coffee.</p>
+                        
+                        <p>Light roasted to preserve its delicate flavor profile, this coffee offers a bright, floral cup with distinctive fruity notes and a wine-like acidity. Each sip reveals complex layers of flavor, from sweet berries to citrus, with a clean, tea-like body.</p>
+                    </div>
+                    
+                    <div class="product-features">
+                        <h3>Product Details</h3>
+                        <ul class="feature-list">
+                            <li><strong>Origin:</strong> Ethiopia (Yirgacheffe region)</li>
+                            <li><strong>Altitude:</strong> 1,750-2,200 meters</li>
+                            <li><strong>Process:</strong> Washed</li>
+                            <li><strong>Roast Level:</strong> Light</li>
+                            <li><strong>Tasting Notes:</strong> Floral, Citrus, Berries, Honey</li>
+                            <li><strong>Body:</strong> Light to Medium</li>
+                            <li><strong>Acidity:</strong> Bright and Wine-like</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="products.html" class="back-link">Back to Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="contact-info">
+            <p>Contact: info@digitalespresso.com | +1-800-COFFEE</p>
+            <p>123 Brew Street, Coffee City, CE 54321</p>
+        </div>
+        
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Digital Espresso. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
