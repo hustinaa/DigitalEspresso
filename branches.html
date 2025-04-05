@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Espresso - Branches</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8B4513;
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 5px;
+            min-height: 500px;
+        }
+        
+        header {
+            background-color: #5D2906;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        
+        .logo {
+            height: 80px;
+            margin-right: 20px;
+        }
+        
+        .company-name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #FFD700;
+        }
+        
+        nav {
+            background-color: #3A1702;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #FFF;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            color: #FFD700;
+        }
+        
+        .branches-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 30px 0;
+        }
+        
+        .branch {
+            flex-basis: 48%;
+            margin-bottom: 30px;
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .branch-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .branch-details {
+            margin-bottom: 15px;
+        }
+        
+        .branch-details p {
+            margin: 5px 0;
+        }
+        
+        .branch-map {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        footer {
+            background-color: #3A1702;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        
+        .contact-info {
+            margin-bottom: 15px;
+        }
+        
+        .social-links a {
+            color: #FFD700;
+            margin: 0 10px;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+        
+        .copyright {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            
+            .branch {
+                flex-basis: 100%;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Digital Espresso Logo" class="logo">
+            <div class="company-name">Digital Espresso</div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="branches.html">Branches</a></li>
+            <li><a href="aboutus.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="content">
+            <h1>Our Branches</h1>
+            <p>Visit one of our Digital Espresso locations nationwide. Each branch offers our full range of premium coffee products and a unique digital cafe experience.</p>
+            
+            <div class="branches-container">
+                <div class="branch">
+                    <img src="6.png" alt="Downtown Branch" class="branch-image">
+                    <h2>Downtown Flagship Store</h2>
+                    <div class="branch-details">
+                        <p><strong>Address:</strong> 123 Brew Street, Coffee City, CE 54321</p>
+                        <p><strong>Phone:</strong> (555) 123-4567</p>
+                        <p><strong>Hours:</strong> Monday-Friday: 6:00 AM - 8:00 PM</p>
+                        <p>Saturday-Sunday: 7:00 AM - 7:00 PM</p>
+                        <p><strong>Features:</strong> Smart ordering kiosks, Roastery tours, Coffee tasting events</p>
+                    </div>
+                </div>
+                
+                <div class="branch">
+                    <img src="7.png" alt="Tech District Branch" class="branch-image">
+                    <h2>Tech District Branch</h2>
+                    <div class="branch-details">
+                        <p><strong>Address:</strong> 456 Innovation Avenue, Tech District, CE 54322</p>
+                        <p><strong>Phone:</strong> (555) 987-6543</p>
+                        <p><strong>Hours:</strong> Monday-Friday: 5:30 AM - 9:00 PM</p>
+                        <p>Saturday-Sunday: 6:30 AM - 8:00 PM</p>
+                        <p><strong>Features:</strong> Co-working spaces, Charging stations, Augmented reality coffee experiences</p>
+                    </div>
+                </div>
+                
+                <div class="branch">
+                    <img src="8.png" alt="University Branch" class="branch-image">
+                    <h2>University Branch</h2>
+                    <div class="branch-details">
+                        <p><strong>Address:</strong> 789 Scholar Lane, University Campus, CE 54323</p>
+                        <p><strong>Phone:</strong> (555) 234-5678</p>
+                        <p><strong>Hours:</strong> Monday-Friday: 7:00 AM - 11:00 PM</p>
+                        <p>Saturday-Sunday: 8:00 AM - 10:00 PM</p>
+                        <p><strong>Features:</strong> Study rooms, 24/7 Wi-Fi, Student discounts, Mobile ordering</p>
+                    </div>
+                </div>
+                
+                <div class="branch">
+                    <img src="9.png" alt="Suburban Branch" class="branch-image">
+                    <h2>Suburban Branch</h2>
+                    <div class="branch-details">
+                        <p><strong>Address:</strong> 321 Family Drive, Suburbia, CE 54324</p>
+                        <p><strong>Phone:</strong> (555) 876-5432</p>
+                        <p><strong>Hours:</strong> Monday-Friday: 6:30 AM - 7:30 PM</p>
+                        <p>Saturday-Sunday: 7:30 AM - 6:30 PM</p>
+                        <p><strong>Features:</strong> Drive-through, Family seating, Kids play area, Mobile ordering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="contact-info">
+            <p>Contact: info@digitalespresso.com | +1-800-COFFEE</p>
+            <p>123 Brew Street, Coffee City, CE 54321</p>
+        </div>
+        
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Digital Espresso. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
